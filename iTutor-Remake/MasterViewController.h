@@ -19,4 +19,8 @@
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
+@property (strong,nonatomic) NSArray *tableLabels;
+@property (strong, nonatomic) NSMutableArray *userEmails;
+@property (strong, nonatomic) NSMutableArray *userEncryptedPasswords;
+
 @end
